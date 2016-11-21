@@ -1,6 +1,9 @@
 #include "Time.h"
 #include "NaturalNumber.h"
 #include "Salary.h"
+#include "Rectangle.h"
+#include "Bulk.h"
+
 
 using namespace std;
 
@@ -66,13 +69,39 @@ int main()
 	cout << "所有大于，且小于数据成员" << nn.getValue() << " 的水仙花数有：";
 	nn.printDaffodils();
 	*/
-
+	/*
 	Salary sal1;
 	sal1.input_salary();
 	sal1.add_salary();
 	sal1.order_salary();
 	cout << "增加工资且排序后的工资是：" << endl;
 	sal1.show_salary();
+	*/
+	/*
+	Rectangle rec;
+	cout << "有一个矩形，长度是：" << rec.get_length() << "，宽度是：" << rec.get_width() << endl;
+	if (bool (rec.is_square()))
+	{
+		cout << "同时它也是一个正方形" << endl;
+	}
+	else
+	{
+		cout << "并且它不是一个正方形" << endl;
+	}
+	cout << "这个矩形的面积是： " << rec.area() << endl;
+	cout << "这个矩形的周长是： " << rec.perimeter() << endl;
+	cout << "这个矩形的对角线长是： " << rec.diagonal() << endl;
+	*/
+	/*
+	Bulk b[5] = { Bulk(2.3, 4.5, 6.7), Bulk(1.5, 3.4, 9.5), Bulk(10.5, 22.3, 3.14) };//前三个元素用带参构造函数初始化，后两个用默认构造函数  
+	b[4].set_value();  //注意b[4]是一个对象，调用成员函数的形式b[4].set_value()  
+	for (int i = 0; i<5; ++i)
+	{
+		cout << "关于b[" << i << "]" << endl;
+		b[i].display();//调用对象数组中元素的成员函数  
+	}*/
+
+	
 
 	system("pause");
 	return 0;

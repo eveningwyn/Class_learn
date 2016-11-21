@@ -78,13 +78,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Bulk.h" />
     <ClInclude Include="NaturalNumber.h" />
+    <ClInclude Include="Rectangle.h" />
     <ClInclude Include="Salary.h" />
     <ClInclude Include="Time.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Bulk.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="NaturalNumber.cpp" />
+    <ClCompile Include="Rectangle.cpp" />
     <ClCompile Include="Salary.cpp" />
     <ClCompile Include="Time.cpp" />
   </ItemGroup>

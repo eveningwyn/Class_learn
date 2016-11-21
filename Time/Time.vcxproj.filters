@@ -24,6 +24,12 @@
     <ClInclude Include="Salary.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="Rectangle.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Bulk.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Time.cpp">
@@ -36,6 +42,12 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="Salary.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Rectangle.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Bulk.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
